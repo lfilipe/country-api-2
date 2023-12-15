@@ -4,46 +4,161 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c9536a-48d7-4845-9f5b-e42ce70205b0" name="Changes" comment="" />
+    <list default="true" id="f0873e34-36c0-4ff6-a80c-9ea715b5818c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ZUX17ReYPLoUNgm56l2KIWFwR8" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ZUXOWzjz824dvfufKpPaXHzWff" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "C:/Users/lfdomingues/Documents/Pessoais/country-api-2/country-api/src/main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "bc80bb2096b89f1342613a83cd4dfde9",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lfdomingues\Documents\Pessoais\country-api-2\country-api\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lfdomingues\Documents\Pessoais\country-api-2\country-api\src\main\resources\static" />
+      <recent name="C:\Users\lfdomingues\Documents\Pessoais\country-api-2\country-api\src\main\resources\templates\home" />
+      <recent name="C:\Users\lfdomingues\Documents\Pessoais\country-api-2\country-api\src\main\webapp" />
+      <recent name="C:\Users\lfdomingues\Documents\Pessoais\country-api-2\country-api\src\main\resources\templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pt.org.multicert" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn spring-boot:run" />
+      <command value="mvn site:run" />
+      <command value="mvn package" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ApplicationTests.givenCountryPT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="country-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.org.multicert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.org.multicert" />
+      <option name="MAIN_CLASS_NAME" value="pt.org.multicert.ApplicationTests" />
+      <option name="METHOD_NAME" value="givenCountryPT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.givenNoCountryCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="country-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.org.multicert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.org.multicert" />
+      <option name="MAIN_CLASS_NAME" value="pt.org.multicert.ApplicationTests" />
+      <option name="METHOD_NAME" value="givenNoCountryCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="country-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pt.org.multicert.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTests.givenNoCountryCode" />
+        <item itemvalue="JUnit.ApplicationTests.givenCountryPT" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97c9536a-48d7-4845-9f5b-e42ce70205b0" name="Changes" comment="" />
-      <created>1702477417203</created>
+      <changelist id="f0873e34-36c0-4ff6-a80c-9ea715b5818c" name="Changes" comment="" />
+      <created>1702477599863</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702477417203</updated>
-      <workItem from="1702477418546" duration="12000" />
+      <updated>1702477599863</updated>
+      <workItem from="1702477600855" duration="41320000" />
+      <workItem from="1702630444082" duration="8977000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
