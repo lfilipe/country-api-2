@@ -69,7 +69,10 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js'></script>
 <script type="text/javascript">
   $(document).ready(function () {
+
     $("#fetch").click(function (event) {
+
+
 
       $('#result').html('<div class="card-body" style="text-align: center;">\n' +
                 '        <img src="empty.png" class="blank-slate-content" alt="...">\n' +
@@ -83,7 +86,7 @@
 
       $.ajax({
         type : "GET",
-        url : "http://localhost:8080/countries/code/"+iso.toLowerCase(),
+        url : window.location.protocol + "//" + window.location.host + window.location.pathname + 'countries/code/'+iso.toLowerCase(),
         contentType: "application/json; charset=UTF-8",
         success: function (data) {
           let languages = '';
