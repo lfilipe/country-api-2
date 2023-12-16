@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0873e34-36c0-4ff6-a80c-9ea715b5818c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -66,6 +65,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "bc80bb2096b89f1342613a83cd4dfde9",
     "vue.rearranger.settings.migration": "true"
@@ -91,8 +93,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
-      <command value="mvn spring-boot:run" />
       <command value="mvn site:run" />
+      <command value="mvn spring-boot:run" />
       <command value="mvn package" />
       <command value="mvn clean" />
     </option>
@@ -162,7 +164,8 @@
       <workItem from="1702477600855" duration="41320000" />
       <workItem from="1702630444082" duration="8977000" />
       <workItem from="1702639642595" duration="53000" />
-      <workItem from="1702656603453" duration="227000" />
+      <workItem from="1702656603453" duration="340000" />
+      <workItem from="1702657326181" duration="2868000" />
     </task>
     <servers />
   </component>
