@@ -9,8 +9,6 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -27,7 +25,6 @@ import java.util.NoSuchElementException;
 @Tag(name = "Countries", description = "Countries api")
 public class CountryController {
 
-    Logger logger = LoggerFactory.getLogger(CountryController.class);
     public CountryService countryService;
 
 
@@ -42,10 +39,6 @@ public class CountryController {
     public ResponseEntity<Country> findByCca2(@Parameter(description = "Country code ISO 3166-1 alpha2", required = true) @PathVariable String cca2) {
         Country bean = null;
         try {
-            logger.info("Info level log message");
-            logger.debug("Debug level log message");
-            logger.error("Error level log message");
-
             bean = countryService.findByCca2(cca2);
             return new ResponseEntity<>(bean,
                     HttpStatus.OK);
