@@ -18,6 +18,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -164,7 +165,8 @@
       <workItem from="1702657326181" duration="3540000" />
       <workItem from="1702726743375" duration="1756000" />
       <workItem from="1702763481342" duration="1547000" />
-      <workItem from="1702843315382" duration="734000" />
+      <workItem from="1702843315382" duration="751000" />
+      <workItem from="1702845532574" duration="74000" />
     </task>
     <servers />
   </component>
