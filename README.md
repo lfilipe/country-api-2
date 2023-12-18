@@ -1,22 +1,30 @@
-Java Spring Boot App is running at Google Cloud Run:
+The application is running at Google Cloud Run:
+
 https://spring-native-app-kzas66i27q-uc.a.run.app/
 
-OpenAPI definition - Swagger UI
+OpenAPI definition - Swagger UI:
+
 https://spring-native-app-kzas66i27q-uc.a.run.app/swagger-ui/index.html
- 
-1. Clone the repo
+
+
+
+## Steps to deploy the app 
+
+1. Access Google Cloud Shell Terminal [https://console.cloud.google.com](https://shell.cloud.google.com/?hl=pt_BR&fromcloudshell=true&show=terminal) 
+
+2. Clone the repo
    ```sh
    $ git clone https://github.com/lfilipe/country-api-2.git
    ```
-2. Access dir
+3. Access dir
    ```sh
    $ cd country-api-2/
    ```
-3. Maven clean
+4. Maven clean
    ```sh
    $ mvn clean
    ```
-4. Maven package
+5. Maven package
    ```sh
    $ mvn package
    ```
@@ -28,20 +36,26 @@ https://spring-native-app-kzas66i27q-uc.a.run.app/swagger-ui/index.html
    ```sh
    $ docker images
    ```
-8. Tag:
+8. In Google Cloud Console, search for Artifact Registry and when it opens the Artifact Registry console,
+   and make the steps in the following image:
+   
+   [![Steps Artifact Registry console][product-screenshot]
+
+
+9. Back to Console and Tag:
    ```sh
-   $ docker tag country-api:0.0.1-SNAPSHOT us-central1-docker.pkg.dev/{PROJECT_ID}/spring-native-repo/sn-image:first
+   $ docker tag country-api:0.0.1-SNAPSHOT us-central1-docker.pkg.dev/country-api-408214/spring-native-repo/sn-image:first
    ```
-9. Push:
+10. Push:
    ```sh
-   $ docker push us-central1-docker.pkg.dev/{PROJECT_ID}/spring-native-repo/sn-image:first
+   $ docker push us-central1-docker.pkg.dev/country-api-408214/spring-native-repo/sn-image:first
    ```
-10. Finally, deploy the app in Cloud Run
+11. Finally, deploy the app in Cloud Run
    ```sh
-   $ gcloud run deploy spring-native-app --image us-central1-docker.pkg.dev/{PROJECT_ID}/spring-native-repo/sn-image:first --platform managed --region us-central1 --allow-unauthenticated
+   $ gcloud run deploy spring-native-app --image us-central1-docker.pkg.dev/country-api-408214/spring-native-repo/sn-image:first --platform managed --region us-central1 --allow-unauthenticated
    ```
 
-11. Once deployed, the service endpoint is presented your terminal:
+12. Once deployed, the service endpoint is presented your terminal:
    ```sh
       Deploying container to Cloud Run service [spring-native-app] in project [country-api-408214] region [us-central1]
       OK Deploying new service... Done.                                                                                                                                                                                                         
@@ -54,6 +68,10 @@ https://spring-native-app-kzas66i27q-uc.a.run.app/swagger-ui/index.html
    ```
 
 
+
+
+[product-screenshot]: src/main/resources/static/step-by-step.png
+
 <!-- Source -->
 ## Source
-* [Spring Native and Serverless with Spring Boot apps on Google Cloud!](https://medium.com/google-cloud/spring-boot-native-images-on-google-cloud-94adfd48bc94)https://medium.com/google-cloud/spring-boot-native-images-on-google-cloud-94adfd48bc94)
+* [Spring Native and Serverless with Spring Boot apps on Google Cloud!](https://medium.com/google-cloud/spring-boot-native-images-on-google-cloud-94adfd48bc94)
